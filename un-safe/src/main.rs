@@ -6,5 +6,5 @@ fn read(y: bool) {
 
 fn main() {
     let x = true;
-    read(x);
+    read(x);            //becomes unsafe if we move read(x) above the let x
 }
